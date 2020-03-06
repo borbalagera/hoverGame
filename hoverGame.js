@@ -13,6 +13,8 @@ document.getElementById("counter").innerHTML = clicks;
 
 function caught(){
     alert("omg you did it");
+    clicks=0;
+    clicks--;
 }
 var w = window.innerWidth-100;
 var h = window.innerHeight-100;
