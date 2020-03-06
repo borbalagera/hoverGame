@@ -1,6 +1,7 @@
 body{
  height:96vh;
  width:99vw;
+ text-align: center;
 }
 
 #moving{
@@ -26,6 +27,7 @@ font-family: calibri;
  margin: 2px;
  margin-left: auto;
  margin-right: auto;
+ text-align: center;
 }
 
 #restart:hover{
