@@ -23,8 +23,8 @@ $(function(){
     $("button").on({
         mouseenter:function(){
             $(this).css({
-                left:(Math.random()*w)+"px",
-                top:(Math.random()*h)+"px",
+                left:(Math.random()*100)+"px",
+                top:(Math.random()*100)+"px",
             });
         }
     });
