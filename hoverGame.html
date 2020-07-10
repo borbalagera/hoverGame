@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="hoverGame.css">
-    <script  src="hoverGame.js" ></script>
-</head>
-<body>
-    <button onclick="caught()">>:) <br>TRY TO <br>CLICK ME<br>>:)</button>
-</body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="hoverGame.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="hoverGame.js"></script>
+  </head>
+  <body onclick="counterUp()">
+    <div class="center">
+      <h1>CLICKS: <span id="counter"></span></h1>
+      <button id="zero" onclick="reset()">RESTART?</button>
+    </div>
+    <button id="moving" onclick="caught()">
+      <br />TRY TO <br />CLICK ME<br />
+    </button>
+  </body>
 </html>
